@@ -31,6 +31,10 @@ namespace OOD_Project1
 
 #endif
 #if Stage2and4
+            Console.WriteLine("enter \'print\' to make a snapshot of the .json file\n" +
+                "enter \'report\' to see reports about objects\n" +
+                "enter \'exit\' to finish working with command line");
+
             string simulatorDataFile = "example_data.ftr";
 
             string sumulatorFtrPath = FilePathFinder.FindFilePath(simulatorDataFile);
