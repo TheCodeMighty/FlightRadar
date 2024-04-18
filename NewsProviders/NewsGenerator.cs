@@ -59,17 +59,5 @@ namespace FlightRadar
 
             return reportables;
         }
-
-        public static void PrintReports()
-        {
-            string command;
-            while ((command = Console.ReadLine()) != "exit")
-            {
-                if (command == "report")
-                {
-                    NewsGenerator.ReportCommand();
-                }
-            }
-        }
     }
 }

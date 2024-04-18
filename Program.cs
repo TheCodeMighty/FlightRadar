@@ -67,10 +67,10 @@ namespace FlightRadar
 
             updateGUIThread.Start();
 
-            binaryReaderThread.Interrupt();
-            runGUIThread.Interrupt();
-            updateGUIThread.Interrupt();
-            ftrReaderThread.Interrupt();
+            binaryReaderThread.Join();
+            runGUIThread.Join();
+            updateGUIThread.Join();
+            ftrReaderThread.Join();
 #endif
         }
     }
