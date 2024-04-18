@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace OOD_Project1
+namespace FlightRadar
 {
     public class Newspaper : INewsProviderVisitor
     {

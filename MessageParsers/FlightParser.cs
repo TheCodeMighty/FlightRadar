@@ -1,6 +1,6 @@
-﻿using OOD_Project1.Entities;
+﻿using FlightRadar.Entities;
 
-namespace OOD_Project1.MessageParsers
+namespace FlightRadar.MessageParsers
 {
     public class FlightParser : MessageParser
     {

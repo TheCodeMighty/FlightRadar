@@ -1,4 +1,4 @@
-﻿namespace OOD_Project1
+﻿namespace FlightRadar
 {
     public class Airport : BaseEntity, IReportable
     {

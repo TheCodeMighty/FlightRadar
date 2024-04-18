@@ -1,4 +1,4 @@
-﻿namespace OOD_Project1.Entities
+﻿namespace FlightRadar.Entities
 {
     public class EntityStorage
     {

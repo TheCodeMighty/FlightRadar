@@ -1,7 +1,7 @@
 ﻿using FlightTrackerGUI;
-using OOD_Project1.Entities;
+using FlightRadar.Entities;
 
-namespace OOD_Project1
+namespace FlightRadar
 {
     public static class GUIUpdater
     {

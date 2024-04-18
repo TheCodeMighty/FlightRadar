@@ -1,7 +1,7 @@
-﻿using OOD_Project1.Entities;
+﻿using FlightRadar.Entities;
 using System.Globalization;
 
-namespace OOD_Project1
+namespace FlightRadar
 {
     public class PassengerPlaneFactory : EntityFactory
     {

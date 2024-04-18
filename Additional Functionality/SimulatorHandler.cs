@@ -1,9 +1,9 @@
 ﻿using System.Text;
 using NetworkSourceSimulator;
-using OOD_Project1.Entities;
-using OOD_Project1.MessageParsers;
+using FlightRadar.Entities;
+using FlightRadar.MessageParsers;
 
-namespace OOD_Project1
+namespace FlightRadar
 {
     public class SimulatorHandler
     {

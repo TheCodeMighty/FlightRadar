@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace OOD_Project1
+namespace FlightRadar
 {
     [JsonDerivedType(typeof(Passenger))]
     [JsonDerivedType(typeof(Airport))]

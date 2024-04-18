@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace OOD_Project1
+namespace FlightRadar
 {
     public static class JsonDataWriter
     {
